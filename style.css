@@ -1,0 +1,131 @@
+.pyramid{
+    position: relative;
+    text-align: center;
+}
+
+.layer-one{
+    position: relative;
+    border-bottom: 100px solid rgba(220, 20, 60, 0.973);
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    height: 50;
+    width: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.layer-two{
+    position: relative;
+    border-bottom: 60px solid rgba(255, 166, 0, 0.884);
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    width: 165px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.layer-three{
+    position: relative;
+    border-bottom: 70px solid rgba(255, 255, 0, 0.726);
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    height: 20;
+    width: 260px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.layer-four{
+    position: relative;
+    border-bottom: 70px solid rgba(30, 146, 255, 0.836);
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    height: 20;
+    width: 340px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.layer-five{
+    position: relative;
+    border-bottom: 70px solid   rgba(60, 220, 20, 0.568);
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    height: 0;
+    width: 420px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.layer-six{
+    position: relative;
+    border-bottom: 70px solid rgba(94, 34, 34, 0.849);
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    height: 0;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*date button to be in center of page*/
+.button-date{
+    text-align: center;
+}
+
+/*button for first layer*/
+.button-one{
+    text-align: center;
+    position: absolute;
+    left:-10px;
+    top: 30px;
+    
+}
+
+/*button for second layer*/
+.button-two{
+    text-align: center;
+    position: absolute;
+    left:50px;
+    top: 20px;
+}
+ /*button for third layer*/
+.button-three{
+    text-align: center;
+    position: absolute;
+    left: 100px;
+    top: 20px;
+}
+
+/*button for fourth layer*/
+.button-four{
+    text-align: center;
+    position: absolute;
+    left: 140px;
+    top: 20px;
+}
+
+/*button for fifth layer*/
+.button-five{
+    text-align: center;
+    position: absolute;
+    left: 180px;
+    top: 20px;
+}
+
+/*button for six layer*/
+.button-six{
+    text-align: center;
+    position: absolute;
+    left: 220px;
+    top: 20px;
+}
+
+/*button-one + button-two + button-three + button-four + button-five + button-six{
+    display: none;
+}
+
+plus1:hover, minus1:hover, plus2:hover, minus2:hover, plus3:hover, minus3:hover, plus4:hover, minus4:hover, plus5:hover, minus5:hover, plus6:hover, minus6:hover + button-one + button-two + button-three + button-four + button-five + button-six{
+    display: block;
+}/*
+
